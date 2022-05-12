@@ -1,0 +1,110 @@
+/*Header*/
+/*Navigation*/
+.page_header {
+  border-bottom: 1px solid var(--header-border-color);
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  height: 80px;
+}
+.header__nav-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+}
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  margin-right: 324px;
+}
+.nav-bar__list {
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+.nav-bar__item {
+  position: relative;
+}
+.nav-bar__list li:not(:last-child) {
+  margin-right: 46px;
+}
+.nav-bar__link {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  color: var(--headline-color);
+  text-decoration: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.nav-bar__link:hover {
+  color: var(--hover-color);
+}
+
+.nav-bar--index::after {
+  content: '';
+  position: absolute;
+  width: 53px;
+  height: 4px;
+  bottom: -33px;
+  left: 1px;
+  background: var(--hover-color);
+  border-radius: 2px;
+}
+
+.nav-bar--portfolio::after {
+  content: '';
+  position: absolute;
+  width: 58px;
+  height: 4px;
+  bottom: -33px;
+  left: -1px;
+  background: var(--hover-color);
+  border-radius: 2px;
+}
+/* Contacts */
+.contacts {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  list-style-type: none;
+}
+.contacts__item:not(:last-child) {
+  margin-right: 30px;
+  flex-wrap: nowrap;
+}
+
+.contacts__link {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  color: var(--paragraph-color);
+  text-decoration: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contacts__icon-envelope,
+.contacts__icon-smartphone {
+  margin-right: 10px;
+  fill: var(--paragraph-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contacts--mail:hover > .contacts__icon-envelope,
+.contacts--tel:hover > .contacts__icon-smartphone {
+  fill: var(--hover-color);
+}
+.contacts--mail:hover,
+.contacts--tel:hover {
+  color: var(--hover-color);
+}
+
+/*Header*/

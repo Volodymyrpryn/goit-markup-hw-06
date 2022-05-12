@@ -1,0 +1,38 @@
+/* Join us section */
+
+.join-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin-right: 78px;
+}
+.join-us__title {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-color);
+  text-align: start;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.our-team__social.join-us__social {
+  margin: 0;
+}
+.social__link.join-us__link {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.social__link.join-us__link:hover {
+  background-color: var(--hover-color);
+}
+.join-us__item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social__icon.join-us__icon {
+  fill: var(--white-color);
+}

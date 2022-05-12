@@ -1,0 +1,35 @@
+body {
+  font-size: 14px;
+  font-family: var(--main-font), 'Open Sans', sans-serif;
+  color: var(--headline-color);
+  background: var(--white-color);
+}
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0 0;
+  list-style: none;
+}
+ul {
+  padding: 0;
+}
+
+.services__list,
+.information__list,
+.our-team__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

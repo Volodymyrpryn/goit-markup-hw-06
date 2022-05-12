@@ -1,0 +1,14 @@
+:root {
+  --main-font: 'Roboto', sans-serif;
+  --second-font: 'Raleway', sans-serif;
+  --headline-color: #212121;
+  --paragraph-color: #757575;
+  --hover-color: #2196f3;
+  --background-color-1: #e5e5e5;
+  --background-color-2: #f5f4fa;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --header-border-color: #ececec;
+  --our-clients-icon: #afb1b8;
+}
+/*# sourceMappingURL=variables.css.map */
